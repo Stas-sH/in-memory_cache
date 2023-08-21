@@ -6,6 +6,11 @@ type Memory struct {
 	memoryValue map[string]interface{}
 }
 
+func newMemory() Memory {
+	var x Memory
+	return x
+}
+
 func (m *Memory) Set(key string, value interface{}) {
 	m.memoryValue[key] = value
 }
