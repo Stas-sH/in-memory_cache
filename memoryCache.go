@@ -6,7 +6,7 @@ type Memory struct {
 	memoryValue map[string]interface{}
 }
 
-func newMemory() Memory {
+func NewMemory() Memory {
 	var x Memory
 	return x
 }
