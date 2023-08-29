@@ -7,7 +7,7 @@ type Memory struct {
 }
 
 func NewMemory() Memory {
-	var x Memory
+	x := Memory{make(map[string]interface{})}
 	return x
 }
 
